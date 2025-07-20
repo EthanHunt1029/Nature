@@ -73,43 +73,31 @@
 
 <script>
   const images = [
-    {
-      src: "https://source.unsplash.com/600x400/?forest",
-      desc: "A dense green forest with sunlight filtering through the trees."
-    },
-    {
-      src: "https://source.unsplash.com/600x400/?mountains",
-      desc: "Majestic mountains standing tall under a clear blue sky."
-    },
-    {
-      src: "https://source.unsplash.com/600x400/?river",
-      desc: "A calm river flowing through a lush landscape."
-    },
-    {
-      src: "https://source.unsplash.com/600x400/?beach",
-      desc: "Golden sand and turquoise waves on a sunny beach."
-    },
-    {
-      src: "https://source.unsplash.com/600x400/?waterfall",
-      desc: "A powerful waterfall cascading down rocky cliffs."
-    },
-    {
-      src: "https://source.unsplash.com/600x400/?flowers",
-      desc: "A field of colorful blooming flowers in spring."
-    }
-  ];
-
-  const gallery = document.getElementById("gallery");
-
-  images.forEach(item => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <img src="${item.src}" alt="Nature Image">
-      <div class="desc">${item.desc}</div>
-    `;
-    gallery.appendChild(card);
-  });
+  {
+    src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
+    desc: "A dense green forest with sunlight filtering through the trees."
+  },
+  {
+    src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
+    desc: "Majestic mountains standing tall under a clear blue sky."
+  },
+  {
+    src: "https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=600&q=80",
+    desc: "A calm river flowing through a lush landscape."
+  },
+  {
+    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
+    desc: "Golden sand and turquoise waves on a sunny beach."
+  },
+  {
+    src: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
+    desc: "A powerful waterfall cascading down rocky cliffs."
+  },
+  {
+    src: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b16?auto=format&fit=crop&w=600&q=80",
+    desc: "A field of colorful blooming flowers in spring."
+  }
+];
 </script>
 
 </body>
