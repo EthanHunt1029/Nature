@@ -1,104 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nature Gallery</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f0f8ff;
-      color: #333;
-    }
-
-    header {
-      background-color: #4caf50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1rem;
-      padding: 1rem;
-    }
-
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      overflow: hidden;
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: scale(1.03);
-    }
-
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .card .desc {
-      padding: 1rem;
-    }
-
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #4caf50;
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Site</title>
+    <!-- 
+        The <title> tag sets the page title that appears in the browser tab.
+        <meta> tags improve accessibility and responsiveness.
+    -->
+    <style>
+        /* Simple styling for better presentation */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+            color: #333;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin-top: 16px;
+        }
+        ul {
+            margin-top: 16px;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
+    <!-- 
+        Main Heading (h1): This is the title of your webpage.
+    -->
+    <h1>Welcome to Ethan's Web Studio</h1>
 
-<header>
-  <h1>Beautiful Nature Gallery</h1>
-  <p>Explore the beauty of the natural world</p>
-</header>
+    <!-- 
+        Short Paragraph: Brief introduction about you or your business.
+    -->
+    <p>
+        Hi! I'm Ethan, a passionate web enthusiast learning HTML and web development.
+        I love creating simple, clean, and modern websites for individuals and small businesses.
+    </p>
 
-<div class="gallery" id="gallery">
-  <!-- Cards will be inserted here -->
-</div>
+    <!-- 
+        Image Section: Add your own image here.
+        The 'alt' attribute describes the image for accessibility.
+        Replace 'profile.jpg' with your image file or a URL.
+    -->
+    <img src="https://via.placeholder.com/300x200.png?text=My+Web+Studio" alt="Ethan's Web Studio logo">
 
-<footer>
-  © 2025 Nature Gallery. All rights reserved.
-</footer>
+    <!-- 
+        Unordered List: List 3 services or features you offer.
+    -->
+    <ul>
+        <li>Custom Website Design</li>
+        <li>Responsive Layouts for Mobile Devices</li>
+        <li>Basic SEO Optimization</li>
+    </ul>
 
-<script>
-  const images = [
-  {
-    src: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80",
-    desc: "A dense green forest with sunlight filtering through the trees."
-  },
-  {
-    src: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
-    desc: "Majestic mountains standing tall under a clear blue sky."
-  },
-  {
-    src: "https://images.unsplash.com/photo-1444065381814-865dc9da92c0?auto=format&fit=crop&w=600&q=80",
-    desc: "A calm river flowing through a lush landscape."
-  },
-  {
-    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80",
-    desc: "Golden sand and turquoise waves on a sunny beach."
-  },
-  {
-    src: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80",
-    desc: "A powerful waterfall cascading down rocky cliffs."
-  },
-  {
-    src: "https://images.unsplash.com/photo-1465101178521-c1a9136a3b16?auto=format&fit=crop&w=600&q=80",
-    desc: "A field of colorful blooming flowers in spring."
-  }
-];
-</script>
-
+    <!-- 
+        Contact Link: This is a clickable link to your email.
+        The 'mailto:' protocol opens the user's email client.
+        You can also use 'tel:' for a phone number (e.g., tel:+1234567890).
+    -->
+    <p>
+        <a href="mailto:ethan@example.com">Contact me by email</a>
+        <!-- Example for phone: <a href="tel:+1234567890">Call me</a> -->
+    </p>
 </body>
 </html>
